@@ -5,8 +5,12 @@ import hello.advanced.trace.TraceStatus;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
+/**
+ * 로그의 상태 정보를 나타낸다.
+ *
+ */
 @Slf4j
-@Component
+@Component//싱글톤으로 사용하기 위해 스프링 빈으로 등록한다. 컴포넌트 스캔의 대상이 된다.
 public class HelloTraceV1 {
 
     private static final String START_PREFIX = "-->";
