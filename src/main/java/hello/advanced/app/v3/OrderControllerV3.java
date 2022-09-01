@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * 동시성 문제 예제
+ * 쓰레드 로컬 사용해서 동시성 문제 해결 예제
  */
 @RestController
 @RequiredArgsConstructor
