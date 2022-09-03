@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- *
+ * 템플릿 콜백 패턴
  */
 @RestController
 public class OrderControllerV5 {
